@@ -8,5 +8,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "rootDir": "."
-  }
+  },
+  "include": ["./scripts", "./test", "./typechain-types"],
+  "files": ["./hardhat.config.ts"]
 }
